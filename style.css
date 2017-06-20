@@ -1,0 +1,155 @@
+@font-face {
+    font-family: logo;
+    src: url(ArchitectsDaughter.ttf);
+}
+
+@font-face {
+	font-family: main;
+	/*src: url("Fonts/champagne_limousines/Champagne & Limousines Bold.ttf");*/
+	src: url("Fonts/open-sans/OpenSans-Bold.ttf");
+}
+
+* {
+	font-family: main;
+}
+
+#nav {
+	/*background-color: #207EA9;*/
+}
+
+#logo {
+	font-family: logo;
+}
+#main {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	opacity: .8;
+	background-image: url("skyscraper.jpg");
+	background-position: center;
+}
+
+#text {
+	font-family: main;
+	font-size: 300%;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	font-color: black;
+	align-content: center;
+	margin-top: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	text-align: justify;
+}
+
+#start-btn {
+	margin-top: 2%;
+	color: #DEC328;
+	background-color: #207EA9;
+	width: 20%;
+	font-size: 150%;
+}
+
+#scroll-down {
+	position: absolute;
+	right: 25%;
+	left: 50%;
+	width: 200px;
+	margin-left: -100px;
+	bottom: 5%;
+
+	font-size: 150%;
+	color: black;
+}
+
+#second {
+	height: 75vh;
+	width: 100vw;
+	background-color: #F0F0F0;
+	color: white;
+}
+
+h2 {
+	background-color: inherit;
+	margin: 0px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color:  #207EA9;
+
+}
+
+#second p {
+	color: #605E5E;
+}
+
+#main-head2 {
+	color: #207EA9;
+	font-size: 400%;
+	padding-top: 2%;
+}
+
+.sub-head2 {
+	color:  #207EA9;
+	font-size: 250%;
+	margin-left: 25%;
+	padding-bottom: 0px;
+
+}
+
+.text2 {
+	color: #605E5E;
+	font-family: Open-sans;
+	margin-left: 30%;
+	font-size: 200%;
+	margin-top: 0px;
+}
+
+.icons {
+	max-height: 250px;
+	height: 50%;
+}
+
+#third {
+	background-color: #207EA9;
+	height: 75vh;
+	width: 100vw;
+	color: white;
+}
+
+#main-head3 {
+	color: white;
+	font-size: 400%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.sub-head3 {
+	color: white;
+	font-size: 250%;
+	padding-bottom: 0px;
+	margin-bottom: 8%;
+}
+
+figcaption {
+	font-size: 150%;
+}
+
+#fourth {
+	background-color: #605E5E;
+
+	color: white;
+}
+
+#main-head4 {
+	color: white;
+	font-size: 400%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.features {
+	margin-left: 25%;
+	font-size: 200%;
+}
